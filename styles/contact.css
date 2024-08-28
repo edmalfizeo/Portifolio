@@ -1,0 +1,93 @@
+
+#contact {
+    background-image: url('/assets/images/Background_Contacts.png');
+    height: 80vh; /* Define a altura da seção como 100% da altura da viewport */
+}
+
+.container-contact {
+    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    flex-direction: column;
+    justify-content: center; /* Distribui o espaço entre os elementos filhos */
+    align-items: center; /* Centraliza os elementos filhos verticalmente */
+    height: 100%; /* Define a altura do container como 100% da altura da viewport */
+    gap: 48px;
+}
+
+#header-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#header-contacts h2 {
+    margin-top: 88px;
+    font-family: var(--font-tertiary);
+    font-size: var(--text-subtitle);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-text-md);
+    color: var(--color-purple);
+}
+
+#header-contacts h1 {
+    font-family: var(--font-primary);
+    font-size: var(--text-title-md);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-title-md);
+    color: var(--color-gray-600);
+ }
+
+#header-contacts h3 {
+    font-family: var(--font-tertiary);
+    font-size: var(--text-title-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-text-md);
+    color: var( --color-gray-400);
+}
+
+#links a {
+    text-decoration: none;
+}
+.link {
+    display: flex;
+    justify-content: space-between; /* Espaça os elementos dentro do .link */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 20px; /* Espaçamento interno do container */
+    background-color: #292C34; /* Cor de fundo */
+    border-radius: 8px; /* Arredondamento dos cantos */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+    width: 25rem;
+    margin-bottom: 16px;
+  }
+  
+  .link:hover {
+    background-color: #292929; /* Cor de fundo ao passar o mouse */
+  }
+  
+  .link-logo {
+    display: flex;
+    align-items: center; /* Alinha o logo e o texto ao centro verticalmente */
+  }
+  
+  .link-logo img {
+    width: 24px; /* Tamanho do logo */
+    margin-right: 10px; /* Espaçamento entre o logo e o texto */
+  }
+  
+  .link-logo h3 {
+    font-family: var(--font-tertiary);
+    font-size: var(--text-title-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-text-md);
+    color: var( --color-gray-600);
+    margin: 0; /* Remove as margens padrão */
+  }
+  
+  .link img {
+    width: 16px; /* Tamanho da seta */
+    transition: transform 0.3s ease; /* Transição suave para hover */
+  }
+  
+  .link:hover img {
+    transform: translateX(5px); /* Move a seta para a direita ao passar o mouse */
+  }

@@ -42,6 +42,10 @@
     width: 80%;
     margin-bottom: 144px;
   }
+
+  .grid-container a {
+    text-decoration: none;
+  }
   
   /* Cada item no grid */
   .grid-item {
@@ -78,7 +82,7 @@
   /* Descrição do card */
   .grid-item p {
     font-family: var(--font-tertiary);
-    font-size: var(--text-title-sm);
+    font-size: var(--text-subtitle);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-text-md);
     color: var( --color-gray-400);
