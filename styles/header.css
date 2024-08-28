@@ -1,6 +1,58 @@
-header {
+#intro {
     background-image: url('../assets/images/Background_Intro.png');
     background-size: cover; /* Faz com que a imagem cubra toda a seção */
     background-position: center; /* Centraliza a imagem na seção */
     height: 100vh; /* Define a altura da seção como 100% da altura da viewport */
+}
+
+.container {
+    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    flex-direction: column;
+    justify-content: center; /* Distribui o espaço entre os elementos filhos */
+    align-items: center; /* Centraliza os elementos filhos verticalmente */
+    height: 100%; /* Define a altura do container como 100% da altura da viewport */
+    gap: 80px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#text {
+    text-align: center;
+    margin-top: 56px;
+}
+
+#text p {
+    font-family: var(--font-tertiary);
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-text-md);
+    color: var( --color-gray-400);
+    margin-top: 20px;
+    width: 680px;
+}
+
+#title h2 {
+    font-family: var(--font-secondary);
+    font-size: var(--text-subtitle);
+    font-weight: var( --font-weight-regular);
+    line-height: var(--line-height-title);
+    color: var(--color-gray-600); 
+}
+
+#red-name {
+    color: var(--color-red);
+}
+
+#title h1 {
+    margin-top: 8px;
+    font-family: var(--font-primary);
+    font-size: var(--text-title-lg);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-title);
+    color: var(--color-gray-600);
 }
