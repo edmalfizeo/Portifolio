@@ -33,31 +33,31 @@
     margin-bottom: 126px;
 }
 
-/* Container principal */
+
 .container-services-grid {
     margin-left: 30rem;
     display: grid;
-    grid-template-columns: repeat(3, 0.2fr); /* Três colunas de tamanho igual */
-    gap: 20px; /* Espaçamento entre os cartões */
+    grid-template-columns: repeat(3, 0.2fr); 
+    gap: 20px; 
     padding: 20px;
   }
   
-  /* Estilo dos cartões de serviço */
+  
   .service-item {
-    border: 1px solid #2b2b2b; /* Borda do cartão */
-    border-radius: 8px; /* Arredondamento dos cantos */
+    border: 1px solid #2b2b2b; 
+    border-radius: 8px; 
     padding: 20px;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
+
   
-  /* Ícone dentro dos cartões */
   .icon {
-    font-size: 50px; /* Tamanho do ícone */
+    font-size: 50px; 
     margin-bottom: 10px;
   }
   
-  /* Título do serviço */
+  
   .service-item h3 {
     font-family: var(--font-primary);
     font-size: var(--text-subtitle);
@@ -68,7 +68,7 @@
     margin-bottom: 10px;
   }
   
-  /* Descrição do serviço */
+  
   .service-item p {
     font-family: var(--font-tertiary);
     font-size: var(--text-title-sm);

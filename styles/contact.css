@@ -1,17 +1,17 @@
 
 #contact {
-    background-image: url('../assets/images/Background_Contacts.png');
-    background-size: cover; /* Faz com que a imagem cubra toda a seção */
-    background-position: center; /* Centraliza a imagem na seção */
-    height: 80vh; /* Define a altura da seção como 100% da altura da viewport */
+    background-image: url('../Portifolio/assets/images/Background_Contacts.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 80vh; 
 }
 
 .container-contact {
-    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Distribui o espaço entre os elementos filhos */
-    align-items: center; /* Centraliza os elementos filhos verticalmente */
-    height: 100%; /* Define a altura do container como 100% da altura da viewport */
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
     gap: 48px;
 }
 
@@ -52,28 +52,28 @@
 }
 .link {
     display: flex;
-    justify-content: space-between; /* Espaça os elementos dentro do .link */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    padding: 20px; /* Espaçamento interno do container */
-    background-color: #292C34; /* Cor de fundo */
-    border-radius: 8px; /* Arredondamento dos cantos */
-    transition: background-color 0.3s ease; /* Transição suave para hover */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #292C34; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
     width: 25rem;
     margin-bottom: 16px;
   }
   
   .link:hover {
-    background-color: #292929; /* Cor de fundo ao passar o mouse */
+    background-color: #292929;
   }
   
   .link-logo {
     display: flex;
-    align-items: center; /* Alinha o logo e o texto ao centro verticalmente */
+    align-items: center; 
   }
   
   .link-logo img {
-    width: 24px; /* Tamanho do logo */
-    margin-right: 10px; /* Espaçamento entre o logo e o texto */
+    width: 24px; 
+    margin-right: 10px; 
   }
   
   .link-logo h3 {
@@ -82,14 +82,14 @@
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-text-md);
     color: var( --color-gray-600);
-    margin: 0; /* Remove as margens padrão */
+    margin: 0;
   }
   
   .link img {
-    width: 16px; /* Tamanho da seta */
-    transition: transform 0.3s ease; /* Transição suave para hover */
+    width: 16px; 
+    transition: transform 0.3s ease; 
   }
   
   .link:hover img {
-    transform: translateX(5px); /* Move a seta para a direita ao passar o mouse */
+    transform: translateX(5px);
   }

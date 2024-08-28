@@ -1,16 +1,16 @@
 #intro {
     background-image: url('../assets/images/Background_Intro.png');
-    background-size: cover; /* Faz com que a imagem cubra toda a seção */
-    background-position: center; /* Centraliza a imagem na seção */
-    height: 100vh; /* Define a altura da seção como 100% da altura da viewport */
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
 }
 
 .container {
-    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Distribui o espaço entre os elementos filhos */
-    align-items: center; /* Centraliza os elementos filhos verticalmente */
-    height: 100%; /* Define a altura do container como 100% da altura da viewport */
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
     gap: 80px;
 }
 

@@ -1,9 +1,9 @@
 .container-projects {
-    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Distribui o espaço entre os elementos filhos */
-    align-items: center; /* Centraliza os elementos filhos verticalmente */
-    height: 100%; /* Define a altura do container como 100% da altura da viewport */
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
     gap: 40px;
 }
 
@@ -36,8 +36,8 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Define três colunas */
-    gap: 20px; /* Espaçamento entre os itens */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     padding: 20px;
     width: 80%;
     margin-bottom: 144px;
@@ -47,28 +47,28 @@
     text-decoration: none;
   }
   
-  /* Cada item no grid */
+  
   .grid-item {
-    background-color: #2b2b2b; /* Cor de fundo do card */
-    border-radius: 8px; /* Arredondamento dos cantos */
+    background-color: #2b2b2b; 
+    border-radius: 8px; 
     padding: 20px;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Container da imagem para bordas arredondadas */
+  
   .image-container {
     padding: 10px;
     border-radius: 15px;
   }
   
-  /* Imagem dentro do card */
+ 
   .image-container img {
-    width: 100%; /* Faz a imagem ocupar toda a largura */
-    border-radius: 10px; /* Arredondamento dos cantos da imagem */
+    width: 100%; 
+    border-radius: 10px; 
   }
   
-  /* Título do card */
+  
   .grid-item h3 {
     font-family: var(--font-primary);
     font-size: var(--text-subtitle);
@@ -79,7 +79,7 @@
     margin-bottom: 10px;
   }
   
-  /* Descrição do card */
+  
   .grid-item p {
     font-family: var(--font-tertiary);
     font-size: var(--text-subtitle);
