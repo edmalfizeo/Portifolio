@@ -1,6 +1,6 @@
 
 #contact {
-    background-image: url('/assets/images/Background_Contacts.png');
+    background-image: url('../assets/images/Background_Contacts.png');
     height: 80vh; /* Define a altura da seção como 100% da altura da viewport */
 }
 
