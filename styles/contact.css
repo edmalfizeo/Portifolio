@@ -1,6 +1,8 @@
 
 #contact {
     background-image: url('../assets/images/Background_Contacts.png');
+    background-size: cover; /* Faz com que a imagem cubra toda a seção */
+    background-position: center; /* Centraliza a imagem na seção */
     height: 80vh; /* Define a altura da seção como 100% da altura da viewport */
 }
 
