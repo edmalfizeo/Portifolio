@@ -28,12 +28,12 @@
 
 #text p {
     font-family: var(--font-tertiary);
-    font-size: var(--text-sm);
+    font-size: var(--text-title-sm);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-text-md);
     color: var( --color-gray-400);
     margin-top: 20px;
-    width: 680px;
+    width: 700px;
 }
 
 #title h2 {

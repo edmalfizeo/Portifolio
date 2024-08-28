@@ -1,0 +1,85 @@
+.container-projects {
+    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    flex-direction: column;
+    justify-content: center; /* Distribui o espaço entre os elementos filhos */
+    align-items: center; /* Centraliza os elementos filhos verticalmente */
+    height: 100%; /* Define a altura do container como 100% da altura da viewport */
+    gap: 40px;
+}
+
+
+
+#projects {
+    background-color: #16181D;
+}
+
+#header-projects {
+    padding: 5px;
+    text-align: center;
+}
+#header-projects h3{
+    font-family: var(--font-tertiary);
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-text-md);
+    color: var(--color-red);
+}
+
+#header-projects h2 {
+    margin-top: 8px;
+    font-family: var(--font-primary);
+    font-size: var(--text-title-md);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-title-md);
+    color: var(--color-gray-600);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define três colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 144px;
+  }
+  
+  /* Cada item no grid */
+  .grid-item {
+    background-color: #2b2b2b; /* Cor de fundo do card */
+    border-radius: 8px; /* Arredondamento dos cantos */
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+  }
+  
+  /* Container da imagem para bordas arredondadas */
+  .image-container {
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  /* Imagem dentro do card */
+  .image-container img {
+    width: 100%; /* Faz a imagem ocupar toda a largura */
+    border-radius: 10px; /* Arredondamento dos cantos da imagem */
+  }
+  
+  /* Título do card */
+  .grid-item h3 {
+    font-family: var(--font-primary);
+    font-size: var(--text-subtitle);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-title);
+    color: var(--color-gray-600);
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  /* Descrição do card */
+  .grid-item p {
+    font-family: var(--font-tertiary);
+    font-size: var(--text-title-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-text-md);
+    color: var( --color-gray-400);
+  }
